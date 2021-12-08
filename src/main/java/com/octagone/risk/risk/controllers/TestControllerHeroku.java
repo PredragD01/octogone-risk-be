@@ -18,7 +18,7 @@ public class TestControllerHeroku {
 
     @RequestMapping(value = "/test", method = RequestMethod.GET)
     private String test(){
-        return "ok si brale";
+        return "Hello Miguel, please send a screenshot if you see this message. Thanks, Predrag";
     }
 
 }
